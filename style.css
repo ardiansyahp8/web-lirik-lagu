@@ -1,0 +1,266 @@
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+}
+
+body{
+	background:#EEEEEE;
+	font-size:12px;
+	font-family:tahoma;
+}
+a{
+	color:#0099FF;
+	text-decoration:none;
+}
+a:hover{
+	color:#CC0000;
+	text-decoration:none;
+}
+p{
+	line-height:18px;
+	padding:10px 0;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+	margin:10px 0;
+}
+tr:nth-child(odd){
+	background:#FFFFFF;
+}
+tr:nth-child(even){
+	background:#F3F3F3;
+}
+
+tr.head{
+	height:40px;
+	background:#66FF00;
+	font-weight:bold;
+}
+tr.data{
+	height:30px;
+}
+tr.no-data{
+	height:40px;
+	background:#fff;
+	font-weight:bold;
+	color:#FF0000;
+	text-align:center;
+}
+
+
+input[type="text"],
+input[type="password"],
+textarea{
+	margin:0;
+	padding:8px;
+	font-family:13px;
+	font-family:tahoma;
+	border:1px solid #C6C6C6;
+	border-radius:3px;
+}
+input[type="submit"]{
+	margin:0;
+	padding:8px 25px;
+	font-size:13px;
+	font-weight:bold;
+	font-family:tahoma;
+	border:1px solid #C6C6C6;
+	border-radius:3px;
+	cursor:pointer;
+	background:-moz-linear-gradient(top, #FFFFFF 3%, #F7F7F7 3%, #EBEBEB 100%);
+	text-shadow:0px 1px 0px #fff;
+}
+ol,ul{
+	list-style-type:none;
+}
+
+
+/* login box */
+.login-box{
+	position:relative;
+	top:0%;
+	left:36.5%!important;
+	width:370px;
+	margin:100px 0 0 0;
+	background:#F6F6F6;
+	border-radius:6px;
+	box-shadow:0px 0px 0px 5px #d1d1d1;
+}
+.title{
+	line-height:40px;
+	font-size:35px;
+	font-weight:normal;
+	font-family:'calibri';
+	text-align:center;
+	padding:10px 0;
+	background:-moz-linear-gradient(top, #F1F1F1 1%, #E3E3E3 3%, #D7D7D7 100%);
+	border-radius:6px 6px 0 0;
+	text-shadow:0px 1px 0px #fff;
+	box-shadow:0px 1px 0px #f9f9f9;
+}
+.sub-title{
+	line-height:20px;
+	font-size:20px;
+	font-weight:normal;
+	font-family:'calibri';
+	text-align:center;
+	padding:10px 0;
+	background:-moz-linear-gradient(top, #FFFFFF 3%, #F7F7F7 3%, #EBEBEB 100%);
+	border-bottom:1px solid #CCCCCC;
+	text-shadow:0px 1px 0px #fff;
+	box-shadow:0px 1px 0px #fff;
+}
+.form-login{
+	margin:10px 0;
+	padding:10px;
+}
+.form-login form input[type="text"],
+.form-login form input[type="password"]{
+	margin:5px 0 20px 0;
+	width:95%;
+}
+
+/* error */
+.error{
+	padding:20px 0 0 0;
+	font-weight:bold;
+	color:#FF0000;
+	text-align:center;
+}
+
+/* copy */
+.copy{
+	font-size:11px;
+	position:relative;
+	text-align:center;
+	padding:10px 0;
+	color:#ACACAC;
+	text-shadow:0px 1px 0px #fff;
+}
+
+/* clear */
+.clear{
+	clear:both;
+}
+
+/* wrap */
+.wrap{
+	margin:20px auto;
+	width:800px;
+	padding:0;
+}
+.wrap-title{
+	line-height:50px;
+	font-size:40px;
+	font-weight:normal;
+	font-family:'calibri';
+	text-align:center;
+	text-shadow:0px 1px 0px #fff;
+}
+.wrap-slogan{
+	line-height:20px;
+	font-size:13px;
+	font-weight:bold;
+	font-family:'calibri';
+	padding:10px 0;
+	text-align:center;
+	border-bottom:1px dashed #999999;
+	text-shadow:0px 1px 0px #fff;
+}
+
+.page{
+	margin:20px 0;
+	text-align:justify;
+}
+.left{
+	float:left;
+	width:180px;
+}
+.right{
+	float:right;
+	width:590px;
+}
+
+.box{
+	margin:0 0 20px 0;
+}
+.box h1{
+	font-size:22px;
+	font-weight:normal;
+	font-family:'calibri';
+	padding:5px 0;
+	border-bottom:1px dashed #999999;
+	text-shadow:0px 1px 0px #fff;
+}
+.box ul li{
+	line-height:30px;
+	border-bottom:1px solid #B5B5B5;
+	box-shadow:0px 1px 0px #fafafa;
+}
+.box ul li a{
+	display:block;
+	padding:6px 0 6px 20px;
+	text-shadow:0px 1px 0px #fff;
+	transition:all .25s ease-in-out;
+	background:url('b_minus.png') no-repeat 0% 17px;
+}
+.box ul li a:hover{
+	padding:6px 0 6px 25px;
+	font-weight:bold;
+}
+	
+.form-kategori{
+	margin:5px 0;
+}
+.form-kategori input[type="text"]{
+	width:97%;
+	margin:0 0 5px 0;
+}
+.cat-error{
+	float:right;
+	position:relative;
+	margin:10px 0 0 0;
+	color:#FF0000;
+}
+.form-lirik{
+	margin:5px 0 0 0;
+}
+.form-lirik input[type="text"],
+.form-lirik textarea{
+	margin:5px 0 10px 0;
+	font-size:13px;
+	width:97%;
+}
+
+.welcome{
+	padding:10px 0;
+	border-bottom:1px dashed #AEAEAE;
+}
+
+.footer{
+	padding:10px 0;
+	text-align:center;
+	border-top:1px dashed #B3B3B3;
+	border-bottom:1px dashed #B3B3B3;
+	font-size:11px;
+	color:#ACACAC;
+	text-shadow:0px 1px 0px #fff;
+}
+	
+.info{
+	padding:10px 0;
+	border-bottom:1px dashed #AEAEAE;
+}
+	
+.lirik{
+	margin:10px 0;
+	padding:10px;
+	background:#fff;
+	border-radius:10px;
+	font-size:16px;
+	font-weight:normal;
+	font-family:'calibri';
+	color:#6D6D6D;
+}
